@@ -1,0 +1,32 @@
+{
+  "name": "nextjs",
+  "version": "4.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/styles": "latest",
+    "clsx": "latest",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "8.0.3",
+    "next-offline": "^4.0.5",
+    "next-redux-wrapper": "^3.0.0-alpha.1",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-form": "^8.0.4",
+    "redux-saga": "^0.16.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "startNext": "next start",
+    "start": "next start -p 3000"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
